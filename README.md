@@ -36,9 +36,9 @@ TBA
 - NodeJs (v. 14.17)
 - Git
 
-## Live Demo
+<!-- ## Live Demo
 
-A live demo for this project can be found in [this link](https://enionsouza.github.io/math-magicians/build/).
+A live demo for this project can be found in [this link](https://enionsouza.github.io/math-magicians/build/). -->
 
 ## Getting Started
 
