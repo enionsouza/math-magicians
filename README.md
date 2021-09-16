@@ -11,13 +11,13 @@
 </p>
 
 
-# Math Magicians - Refactor with Hooks
+# Math Magicians
 
 ## About
 
 "Math magicians" is a website whose core functionality is a calculator.
 
-Below a screenshot of the homepage is presented.
+Below, a screenshot of the app is presented.
 
 <p align="center">
     <img alt="Screenshot" src="./docs/Screenshot.png" width="700">
@@ -32,6 +32,7 @@ Below a screenshot of the homepage is presented.
 ## Pre-requisites
 
 - NodeJs (v. 14.17)
+- YarnJs (v. 1.22.10)
 - Git
 
 ## Live Demo
@@ -52,8 +53,8 @@ git clone git@github.com:enionsouza/math-magicians.git
 2. Now that you have already cloned the repo run the following commands to get the project up and running:
 ```sh
 cd math-magicians
-npm install
-npm start
+yarn
+yarn start
 ```
 
 
