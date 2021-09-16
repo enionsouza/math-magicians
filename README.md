@@ -36,7 +36,7 @@ Below a screenshot of the homepage is presented.
 
 ## Live Demo
 
-A live demo for this project can be found in [this link](https://enionsouza.github.io/math-magicians/build/).
+A live demo for this project can be found in [this link](https://enionsouza.github.io/math-magicians/).
 
 ## Getting Started
 
