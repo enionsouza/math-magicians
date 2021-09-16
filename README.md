@@ -3,7 +3,7 @@
     <img alt="Microverse" src="https://img.shields.io/badge/-Microverse-blueviolet?style=flat-square">
   </a>
   <a href="https://github.com/enionsouza/math-magicians">
-    <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/enionsouza/math-magicians/main?color=blue&style=flat-square">
+    <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/enionsouza/math-magicians/develop?color=blue&style=flat-square">
   </a>
   <a href="https://github.com/enionsouza/math-magicians">
     <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/enionsouza/math-magicians?color=cyan&label=%E2%98%85%20stars%20&style=flat-square">
@@ -11,7 +11,7 @@
 </p>
 
 
-# Math Magicians - Components
+# Math Magicians - Events
 
 ## About
 
@@ -36,9 +36,9 @@ TBA
 - NodeJs (v. 14.17)
 - Git
 
-## Live Demo
+<!-- ## Live Demo
 
-A live demo for this project can be found in [this link](https://enionsouza.github.io/math-magicians/build/).
+A live demo for this project can be found in [this link](https://enionsouza.github.io/math-magicians/build/). -->
 
 ## Getting Started
 
