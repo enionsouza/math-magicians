@@ -11,7 +11,10 @@ const Calculator = () => {
   );
 
   const onClickHandler = (e) => {
+    const { total, next } = state;
+    if (!total && !next && e.target.classList.contains('operator')) return null;
     setState((state) => calculate(state, e.target.innerHTML));
+    return null;
   };
 
   const utilLabels = ['AC', '+/-', '%'];
