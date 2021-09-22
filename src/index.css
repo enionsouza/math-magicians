@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
 body {
   margin: 0;
   font-family:
@@ -16,12 +18,36 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-title {
+  font-family: 'Caveat', cursive;
+  font-size: 3em;
+  text-align: center;
+}
+
+.nav-menu-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-menu-list li {
+  padding: 1em;
+}
+
+.nav-menu-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-menu-list a:hover {
+  text-decoration: underline;
+}
+
+.active-link {
+  font-weight: bold;
 }

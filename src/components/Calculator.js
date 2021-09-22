@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Button from './Button';
 import calculate from '../logic/calculate';
+import './Calculator.css';
 
 const Calculator = () => {
   const [state, setState] = useState(
@@ -18,7 +19,7 @@ const Calculator = () => {
   };
 
   const utilLabels = ['AC', '+/-', '%'];
-  const digitLabels = [7, 8, 9, 4, 5, 6, 1, 2, 3, 0, '.'];
+  const digitLabels = ['7', '8', '9', '4', '5', '6', '1', '2', '3', '0', '.'];
   const operatorLabels = ['÷', 'x', '-', '+', '='];
   const { total, next } = state;
 
