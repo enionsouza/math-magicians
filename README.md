@@ -17,16 +17,22 @@
 
 "Math magicians" is a website whose core functionality is a calculator.
 
-Below, a screenshot of the app is presented.
+Below, a screenshot of each page of the app is presented.
 
 <p align="center">
-    <img alt="Screenshot" src="./docs/Screenshot.png" width="700">
+    <img alt="Home Page" style="border: 1px solid black;" src="./docs/Screenshot1.png" width="700">
+</p>
+<p align="center">
+    <img alt="Calculator" style="border: 1px solid black;" src="./docs/Screenshot2.png" width="700">
+</p>
+<p align="center">
+    <img alt="Quote" style="border: 1px solid black;" src="./docs/Screenshot3.png" width="700">
 </p>
 
 ## Built With
 
 - HTML, CSS, JavaScript;
-- ReactJs;
+- ReactJS;
 - VisualStudio Code, Git, & GitHub;
 
 ## Pre-requisites
