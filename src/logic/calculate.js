@@ -13,7 +13,8 @@ function isNumber(item) {
  *   next:String       the next number to be operated on with the total
  *   operation:String  +, -, etc.
  */
-export default function calculate(obj, buttonName) {
+
+function calculate(obj, buttonName) {
   if (buttonName === 'AC') {
     return {
       total: null,
@@ -62,11 +63,11 @@ export default function calculate(obj, buttonName) {
       }
       return { total: `${obj.total}.` };
     }
-    return { total: '0.' };
+    return { next: '0.' };
   }
 
   if (buttonName === '=') {
-    if (obj.next && obj.operation) {
+    if (obj.next && obj.total && obj.operation) {
       return {
         total: operate(obj.total, obj.next, obj.operation),
         next: null,
@@ -91,9 +92,9 @@ export default function calculate(obj, buttonName) {
 
   // When the user presses an operation button without having entered
   // a number first, do nothing.
-  // if (!obj.next && !obj.total) {
-  //   return {};
-  // }
+  if (!obj.next && !obj.total) {
+    return {};
+  }
 
   // User pressed an operation after pressing '='
   if (!obj.next && obj.total && !obj.operation) {
@@ -127,3 +128,11 @@ export default function calculate(obj, buttonName) {
     operation: buttonName,
   };
 }
+
+const calculateWrapper = (obj, buttonName) => {
+  const computedObj = calculate(obj, buttonName);
+
+  return { ...obj, ...computedObj };
+};
+
+export default calculateWrapper;
