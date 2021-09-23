@@ -8,6 +8,7 @@ const Calculator = () => {
     {
       total: null,
       next: null,
+      operation: null,
     },
   );
 
