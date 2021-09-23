@@ -67,7 +67,7 @@ function calculate(obj, buttonName) {
   }
 
   if (buttonName === '=') {
-    if (obj.next && obj.operation) {
+    if (obj.next && obj.total && obj.operation) {
       return {
         total: operate(obj.total, obj.next, obj.operation),
         next: null,
@@ -129,10 +129,10 @@ function calculate(obj, buttonName) {
   };
 }
 
-const calculate_wrapper = (obj, buttonName) => {
+const calculateWrapper = (obj, buttonName) => {
   const computedObj = calculate(obj, buttonName);
 
   return { ...obj, ...computedObj };
-}
+};
 
-export default calculate_wrapper;
+export default calculateWrapper;
