@@ -55,5 +55,8 @@ describe('"operate" function', () => {
     it('returns the correct remainder of one positive and one negative given floating numbers: 210.5 % (-50.5) = 8.5', () => {
       expect(operate('210.5', '-50.5', '%')).toBe('8.5');
     });
+    it('handles remainder of division by zero: (100) % (0) returns Can\'t divide by 0.', () => {
+      expect(operate('100', '0', '%')).toBe('Can\'t divide by 0.');
+    });
   });
 });
