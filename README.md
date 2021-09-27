@@ -43,7 +43,10 @@ Below, a screenshot of each page of the app is presented.
 
 ## Live Demo
 
-A live demo for this project can be found in [this link](https://enionsouza.github.io/math-magicians/).
+Live demos for this project can be found on the following Cloud Platforms:
+- [Heroku](https://math-magicians-enionsouza.herokuapp.com/),
+- [Netlify](https://math-magicians-enionsouza.netlify.app), and
+- [GitHub Pages](https://enionsouza.github.io/math-magicians/).
 
 ## Getting Started
 
@@ -62,7 +65,14 @@ cd math-magicians
 yarn
 yarn start
 ```
+## Run tests
 
+To test the App's components and logic, please, run the following command:
+
+```sh
+yarn test --watchAll
+```
+When the tests are finished, just hit `q` key to leave the watch mode for the tests.
 
 ## Author
 
